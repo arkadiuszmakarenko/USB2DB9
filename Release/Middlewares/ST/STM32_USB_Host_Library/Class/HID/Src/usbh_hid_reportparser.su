@@ -1,0 +1,2 @@
+usbh_hid_reportparser.c:52:5:report_is_usable	0	static
+usbh_hid_reportparser.c:72:5:parse_report_descriptor	80	static

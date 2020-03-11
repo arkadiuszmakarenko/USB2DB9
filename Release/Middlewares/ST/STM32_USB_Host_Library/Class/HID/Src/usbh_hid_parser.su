@@ -1,0 +1,2 @@
+usbh_hid_parser.c:100:10:HID_ReadItem	20	static
+usbh_hid_parser.c:168:10:HID_WriteItem	20	static

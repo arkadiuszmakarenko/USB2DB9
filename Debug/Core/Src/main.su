@@ -1,0 +1,8 @@
+main.c:87:9:processMouseMovement	32	static
+main.c:203:5:main	32	static
+main.c:370:6:SystemClock_Config	120	static
+main.c:420:13:MX_TIM2_Init	32	static
+main.c:465:13:MX_TIM3_Init	32	static
+main.c:510:13:MX_GPIO_Init	40	static
+main.c:538:6:HAL_TIM_PeriodElapsedCallback	16	static
+main.c:622:6:Error_Handler	4	static

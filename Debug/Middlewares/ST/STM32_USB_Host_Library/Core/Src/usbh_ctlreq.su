@@ -1,0 +1,17 @@
+usbh_ctlreq.c:104:20:USBH_Get_DevDesc	32	static
+usbh_ctlreq.c:131:20:USBH_Get_CfgDesc	32	static
+usbh_ctlreq.c:170:20:USBH_Get_StringDesc	40	static
+usbh_ctlreq.c:201:20:USBH_GetDescriptor	16	static
+usbh_ctlreq.c:234:20:USBH_SetAddress	16	static
+usbh_ctlreq.c:258:20:USBH_SetCfg	16	static
+usbh_ctlreq.c:281:20:USBH_SetInterface	16	static
+usbh_ctlreq.c:304:20:USBH_SetFeature	16	static
+usbh_ctlreq.c:328:20:USBH_ClrFeature	16	static
+usbh_ctlreq.c:351:14:USBH_ParseDevDesc	24	static
+usbh_ctlreq.c:383:13:USBH_ParseCfgDesc	48	static
+usbh_ctlreq.c:447:14:USBH_ParseInterfaceDesc	16	static
+usbh_ctlreq.c:468:14:USBH_ParseEPDesc	16	static
+usbh_ctlreq.c:488:13:USBH_ParseStringDesc	32	static
+usbh_ctlreq.c:527:21:USBH_GetNextDesc	24	static
+usbh_ctlreq.c:549:20:USBH_CtlReq	32	static
+usbh_ctlreq.c:615:27:USBH_HandleControl	32	static

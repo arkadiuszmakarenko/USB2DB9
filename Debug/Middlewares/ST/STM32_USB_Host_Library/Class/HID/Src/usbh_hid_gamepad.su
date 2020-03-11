@@ -1,0 +1,4 @@
+usbh_hid_gamepad.c:111:17:collect_bits	40	static
+usbh_hid_gamepad.c:168:20:USBH_HID_GamepadInit	24	static
+usbh_hid_gamepad.c:194:10:USBH_HID_GetGamepadInfo	16	static
+usbh_hid_gamepad.c:215:27:USBH_HID_GamepadDecode	112	static
