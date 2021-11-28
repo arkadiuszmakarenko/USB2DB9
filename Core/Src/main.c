@@ -301,6 +301,15 @@ while (1)
     							//HAL_TIM_Base_Start_IT(&htim2) ;
     							//HAL_TIM_Base_Start_IT(&htim3) ;
 
+    							int16_t x_val = mousemap->x;
+    							int16_t y_val = mousemap->y;
+
+    							if (x_val>0 && x_val<10){x_val=+ 10;}
+    							if (x_val<0 && x_val<-10){x_val=- 10;}
+
+    							if (y_val>0 && y_val<10){y_val=+ 10;}
+    							if (y_val<0 && y_val<-10){y_val=- 10;}
+
     							xTimerTop = processMouseMovement(mousemap->x, MOUSEX, 0U,0U);
     							yTimerTop = processMouseMovement(mousemap->y, MOUSEY, 0U,0U);
 
@@ -431,7 +440,7 @@ static void MX_TIM2_Init(void)
 
   /* USER CODE END TIM2_Init 1 */
   htim2.Instance = TIM2;
-  htim2.Init.Prescaler = 32000;
+  htim2.Init.Prescaler = 4608-1;
   htim2.Init.CounterMode = TIM_COUNTERMODE_UP;
   htim2.Init.Period = 1000;
   htim2.Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;
@@ -476,7 +485,7 @@ static void MX_TIM3_Init(void)
 
   /* USER CODE END TIM3_Init 1 */
   htim3.Instance = TIM3;
-  htim3.Init.Prescaler = 32000;
+  htim3.Init.Prescaler = 4608-1;
   htim3.Init.CounterMode = TIM_COUNTERMODE_UP;
   htim3.Init.Period = 1000;
   htim3.Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;

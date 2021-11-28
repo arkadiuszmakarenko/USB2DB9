@@ -4,7 +4,7 @@ stm32f1xx_hal_hcd.c:296:14:HAL_HCD_MspInit	0	static
 stm32f1xx_hal_hcd.c:108:19:HAL_HCD_Init	64	static
 stm32f1xx_hal_hcd.c:311:14:HAL_HCD_MspDeInit	0	static
 stm32f1xx_hal_hcd.c:261:19:HAL_HCD_DeInit	8	static
-stm32f1xx_hal_hcd.c:363:19:HAL_HCD_HC_SubmitRequest	16	static
+stm32f1xx_hal_hcd.c:363:19:HAL_HCD_HC_SubmitRequest	20	static
 stm32f1xx_hal_hcd.c:603:13:HAL_HCD_SOF_Callback	0	static
 stm32f1xx_hal_hcd.c:618:13:HAL_HCD_Connect_Callback	0	static
 stm32f1xx_hal_hcd.c:633:13:HAL_HCD_Disconnect_Callback	0	static
